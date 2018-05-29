@@ -1,0 +1,175 @@
+body{
+	font-family:arial,sans-serif;
+	font-weight: normal;
+}
+ul li{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+a:link{
+	text-decoration: none;
+	color: #1a0dab;
+}
+a:visited{
+	color:#609;
+}
+h1{
+	line-height: 1.1;
+}
+h1 a:hover{
+	text-decoration: underline;
+}
+/*specific id or classes*/
+
+header{
+	background: rgba(240,240,240,0.5);
+}
+.form{
+	width:max-content;
+	position: relative;
+	float: left;
+	margin-top: 28px;
+	padding-bottom: 20px;
+}
+.form input{
+	width: 500px;
+	padding:15px;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #bbb;
+	border:none;
+}
+.form input:hover{
+	box-shadow:0 2px 2px #777;
+	border:none; 
+}
+.logo{
+	height: 44px;
+	width: 120px;
+	z-index: 1;
+    padding: 30px 16px 0 22px;
+    float: left;
+}
+.fa{
+	padding: 8px;
+}
+.right{
+	float: right;
+	position: relative;
+	margin: 28px;
+}
+.right li{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.nav-bar{
+	padding: 20px;
+	background: rgba(240,240,240,0.5);
+	border-bottom: 1px solid #ddd;
+}
+.nav-right{
+	float: right;
+	margin-top:-18px;
+	margin-right: 570px;
+}
+.nav-left{
+	margin-left:145px;	
+}
+.nav-left,.nav-right{
+	max-width: max-content;
+}
+.nav-left a {
+	border-bottom: 3px solid transparent;
+    color: #aaa;
+    font-size: 13px;
+    padding:10px 10px 17px 10px;
+}
+.nav-left a:hover {
+	border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-size: 13px;
+}
+.nav-right a{
+	color: #aaa;
+    font-size: 13px;
+    padding:10px;
+    border-bottom: 3px solid transparent;
+}
+.results{
+	margin-left: 175px;
+	font-size: 12px;
+	color:#888;
+	padding:10px 0;
+}
+.searchResult{
+	width:780px;
+}
+.search{
+	margin-left: 175px;
+	margin-bottom: 20px;
+}
+.search h1{
+	font-size: 20px;
+	padding:3px 0;
+}
+.search h6{
+	color: #006621;
+	font-size:13px;
+}
+.search p{
+    color: #545454;
+    line-height: 1.4;
+    font-size: 13px;
+    line-break:break-word;
+}
+.smallList li{
+	font-size:13px;
+	padding:2px;
+	margin-left: 10px;
+}
+.related{
+	margin-left: 175px;
+}
+.related h1{
+	color: #222;
+	font-size: 18px;
+	padding-bottom: 8px;
+}
+.related ul li{
+	display: block;
+	padding:5px;
+	font-size: 15px;
+}
+.rightList{
+	margin-left: 260px;
+	margin-top: -100px;
+}
+.pages{
+	margin-left: 150px;
+}
+footer {
+	background: rgba(230,230,230,0.6);
+	font-size: 13px;
+	color:#aaa;
+}
+footer p{
+	border-bottom: 1px solid #e4e4e4;
+	padding:10px;
+	margin-left: 175px;
+}
+footer ul{
+	border-bottom: 1px solid #e4e4e4;
+	padding:10px;
+	margin-left: 175px;
+}
+footer ul li a{
+	padding-right: 15px;
+	color:#aaa;
+}
+.date{
+	padding-left: 20px;
+	font-size:12px;
+    line-height: 1.2;
+}
